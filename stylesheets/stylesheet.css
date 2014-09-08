@@ -139,13 +139,13 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
+/*  border: 1px solid #ebebeb;
 
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+  -ms-box-shadow: 0 0 5px #ebebeb;*/
 }
 
 p img {
@@ -269,6 +269,10 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+.clear {
+  clear: both;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
@@ -285,12 +289,12 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #1d1d1d; /* * /
-  background: -moz-linear-gradient(top, #212121, #1d1d1d);
-  background: -webkit-linear-gradient(top, #212121, #1d1d1d);
-  background: -ms-linear-gradient(top, #212121, #1d1d1d);
-  background: -o-linear-gradient(top, #212121, #1d1d1d);
-  background: linear-gradient(top, #212121, #1d1d1d); /**/
+  background: #333333; /* */
+  background: -moz-linear-gradient(top, #212121, #333333);
+  background: -webkit-linear-gradient(top, #212121, #333333);
+  background: -ms-linear-gradient(top, #212121, #333333);
+  background: -o-linear-gradient(top, #212121, #333333);
+  background: linear-gradient(top, #212121, #333333); /**/
 }
 
 #header_wrap .inner {
@@ -298,6 +302,7 @@ Full-Width Styles
 }
 
 #project_title {
+  float: left;
   margin: 0;
   color: #fff;
   font-size: 42px;
@@ -311,6 +316,8 @@ Full-Width Styles
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
+  width: 330px;
+  margin: 57px 0 57px 180px;
 }
 
 #downloads {
@@ -363,7 +370,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #1d1d1d;
+  background: #333333;
 }
 
 
